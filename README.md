@@ -3,13 +3,13 @@
 Cliente oficial de la API de [FisKit](https://fiskit.com.ar): facturas electrónicas de ARCA (ex AFIP) con un solo pedido. Sin dependencias, para Node 18 o superior.
 
 ```bash
-npm install fiskit
+npm install @fiskit/node
 ```
 
 ## Tu primera factura
 
 ```js
-import { Fiskit } from "fiskit";
+import { Fiskit } from "@fiskit/node";
 
 const fiskit = new Fiskit(process.env.FISKIT_API_KEY);
 
@@ -39,7 +39,7 @@ Los errores llegan como `FiskitError`, con `status`, `type`, `code`, `message`, 
 ## Webhooks
 
 ```js
-import { verifyWebhook } from "fiskit";
+import { verifyWebhook } from "@fiskit/node";
 
 // Express: usá el cuerpo crudo, antes de parsearlo
 app.post("/webhooks/fiskit", express.text({ type: "*/*" }), (req, res) => {
