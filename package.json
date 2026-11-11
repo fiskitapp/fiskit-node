@@ -39,9 +39,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FidelGenre/fiskit-node.git"
+    "url": "git+https://github.com/fiskitapp/fiskit-node.git"
   },
   "bugs": {
-    "url": "https://github.com/FidelGenre/fiskit-node/issues"
+    "url": "https://github.com/fiskitapp/fiskit-node/issues"
   }
 }
