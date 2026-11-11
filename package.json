@@ -11,18 +11,30 @@
       "default": "./index.js"
     }
   },
-  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
   "engines": {
     "node": ">=18"
   },
   "scripts": {
     "test": "node --test"
   },
-  "keywords": ["arca", "afip", "factura electronica", "invoicing", "argentina", "cae", "fiskit"],
+  "keywords": [
+    "arca",
+    "afip",
+    "factura electronica",
+    "invoicing",
+    "argentina",
+    "cae",
+    "fiskit"
+  ],
   "homepage": "https://fiskit.com.ar/developers",
   "license": "MIT",
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   }
 }
