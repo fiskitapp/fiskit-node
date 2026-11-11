@@ -28,6 +28,8 @@ await fiskit.taxpayers.retrieve(30712345671);   // name, address and VAT conditi
 
 Full documentation: https://fiskit.com.ar/developers
 
+Coding with an AI agent? Point it to https://fiskit.com.ar/llms.txt: the API rules, errors and examples in plain text.
+
 ---
 
 ## Español
@@ -83,3 +85,5 @@ app.post("/webhooks/fiskit", express.text({ type: "*/*" }), (req, res) => {
 ```
 
 Documentación completa: https://fiskit.com.ar/developers
+
+¿Programás con un agente de IA? Pasale https://fiskit.com.ar/llms.txt: las reglas, errores y ejemplos de la API en texto plano.
