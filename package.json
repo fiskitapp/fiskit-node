@@ -1,6 +1,6 @@
 {
   "name": "@fiskit/node",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Official Node.js client for the FisKit API: electronic invoices with ARCA (ex AFIP) in a single request.",
   "type": "module",
   "main": "./index.js",
