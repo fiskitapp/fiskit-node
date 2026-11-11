@@ -1,0 +1,28 @@
+{
+  "name": "fiskit",
+  "version": "0.1.0",
+  "description": "Official Node.js client for the FisKit API: electronic invoices with ARCA (ex AFIP) in a single request.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["arca", "afip", "factura electronica", "invoicing", "argentina", "cae", "fiskit"],
+  "homepage": "https://fiskit.com.ar/developers",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
